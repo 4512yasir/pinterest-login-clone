@@ -3,6 +3,7 @@ import Button from "./Button";
 import { Link } from 'react-router-dom';
 
 function SignUp() {
+    
     return (
         <div>
             <i className="fa-brands fa-pinterest"></i>

@@ -5,7 +5,7 @@ body {
   margin: 0;
   background: url("https://unsplash.it/1600/900?blur") no-repeat center center/cover;
   /* background-color: #fff; */
-  color: #333;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +35,7 @@ h1, h2 {
 
 p {
   font-size: 14px;
-  color: #555;
+  color: white;
   margin: 1rem 0;
 }
 
@@ -46,6 +46,17 @@ p {
   border-radius: 8px;
   border: 1px solid #ccc;
   font-size: 14px;
+}
+.success {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
 .button button {
