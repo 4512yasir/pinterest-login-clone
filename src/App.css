@@ -1,0 +1,89 @@
+/* App.css */
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-color: #fff;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+i.fa-pinterest {
+  font-size: 48px;
+  color: #e60023;
+  margin-bottom: 1rem;
+}
+
+h1, h2 {
+  margin: 0.5rem 0;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+  color: #555;
+  margin: 1rem 0;
+}
+
+.inputs {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.button button {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#login-button {
+  background-color: #e60023;
+  color: white;
+}
+
+#Facebook-button {
+  background-color: #1877f2;
+  color: white;
+}
+
+#Google-button {
+  background-color: white;
+  color: #444;
+  border: 1px solid #ccc;
+}
+
+#Email-button {
+  background-color: #e60023;
+  color: white;
+}
+
+a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
